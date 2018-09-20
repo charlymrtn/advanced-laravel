@@ -14,5 +14,6 @@ class FormController extends Controller
 
     public function store(StoreFormValidation $request){
 
+        return $request->all();
     }
 }

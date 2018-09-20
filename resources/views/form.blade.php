@@ -30,6 +30,7 @@
                     <div class="form-group">
                         <input class="btn btn-success" type="submit">
                     </div>
+                    @captcha
                 </form>
             </div>
         </div>

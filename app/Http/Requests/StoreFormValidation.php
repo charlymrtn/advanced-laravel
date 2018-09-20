@@ -25,7 +25,8 @@ class StoreFormValidation extends FormRequest
     {
         return [
                 'name' =>'required|min:5',
-                'email' => 'required|max:25'
+                'email' => 'required|max:25',
+                'g-recaptcha-response' => 'required|captcha'
         ];
     }
 
